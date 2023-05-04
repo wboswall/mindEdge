@@ -8,6 +8,6 @@
 
 // local scope - inside block
 
-  let greeting ="Hello World! From the Javascript/ECMAScript World!";
+const greeting ="Hello World! From the Javascript/ECMAScript World!";
 
 console.log(greeting);
