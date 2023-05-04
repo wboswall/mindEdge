@@ -1,0 +1,17 @@
+ChangeLog
+****************************************************************************
+Purpose is to create a record of all the changes that are made to this site.  This will help if we need to go back and trace 
+any changes or revert back to a previous version temporarily.
+****************************************************************************
+May 3, 2023
+Version 0.0.0.0
+The base project
+Committed files: engine.js, index.html, styles.css
+May 4, 2023
+Version 0.0.0.1
+The first official commit that includes the changes of the following files:
+Updated styles.css with styling for headers 1 and 2 levels, and paragraph tags.  
+Updated index.html with more sections for the main article.
+Created more html pages: about, blog, contact, destination, development, traveltips, and travelwarnings
+Created Changelog.txt to document important changes for each commit to the repository of mindEdge/Travelsite project.
+

@@ -2,6 +2,8 @@
  *@author: William E Boswall
  *@date: 04/05/2023
  *@description: This file will be the engine that runs the front end of the site. 
+ *@license: not available
+ *@version: 0.0.0.0
  */
 // global scope - (on top)
 "use strict";
