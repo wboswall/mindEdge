@@ -44,13 +44,13 @@ Version 0.0.0.1
 The first official commit that includes the changes of the following files:
 Updated styles.css with styling for headers 1 and 2 levels, and paragraph tags.  
 Updated index.html with more sections for the main article.
-Created more html pages: about, blog, contact, destination, development, traveltips, and travelwarnings
+Created more html pages: about, blog, contact, destination, development, traveltips, and travelwarnings.
 Created Changelog.txt to document important changes for each commit to the repository of mindEdge/Travelsite project.
 
 May 4, 2023
 Version 0.0.0.2
 Added more styling to styles.css.
-Also introduced nested styling too.
+Also introduced nested styling too. This was done to the destination page.
 Removed the html styling tags (<b></b> and <i></i>) from all web pages. 
     This was done by replacing them with CSS classes and then applied the afformentioned styling in the styles.css.
 Removed the five &nbsp;(s) from the section of index.html called Intro and replaced them with CSS property white-space:nowrap; .
