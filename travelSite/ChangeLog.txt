@@ -57,5 +57,13 @@ Removed the five &nbsp;(s) from the section of index.html called Intro and repla
 Fixed spelling mistake for -vacation in the meta tag section.
 Updated files: Changelog.txt, destination, index and styles.  
 
+May 5, 2023
+Version 0.0.0.3
+Updated all of the elements in the styles sheet.  
+Introduced styling for the li element, span tag to make Maple Leaf Travel Store stand out on the index page.
+Introduced the span.Hightlight feature to make certain pieces of text such as the company's name stand out better. 
+Fixed any random English and grammar mistakes/typos.
+Converted any color names to their hexadecimal equivalent.  Will only be using hexadecimal color codes from here on in. 
+Implemented MenuBar so that the menu bar can be displayed horizontally.  
 
 
