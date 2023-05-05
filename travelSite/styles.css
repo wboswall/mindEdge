@@ -15,5 +15,41 @@
     font-style:italic;
  }
  p {
-    font-size: 12px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+ }
+ .Slogan {
+    font-style:italic;
+ }
+ .MainGoal {
+    font-style:bold;
+ }
+ .Intro {
+    white-space:nowrap;
+    color: green;
+    font-weight:bold;
+ }
+ #closing{
+    text-align:center;
+    text-transform:uppercase;
+ }
+ .MtEverest h2 {
+    color: red; 
+    font-style: italic;
+ }
+ .MtEverest p {
+    color:aquamarine;
+    font-style:italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+ }
+ .GreatBarrierReef  h2 {
+    color:pink;
+    font-style:oblique;
+ }
+ .GreatBarrierReef p {
+    color:blueviolet;
+    font-style: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
  }
