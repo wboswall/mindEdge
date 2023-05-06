@@ -68,14 +68,32 @@ Implemented MenuBar so that the menu bar can be displayed horizontally.
 
 May 6, 2023
 Version 0.0.0.4
+Changes to the destination page.
 Got pictures for Machu Picchu, Mount Everest, and Great Barrier Reef courtesy of Encyclopedia Brittanica and Wikipedia via Google images search engine. 
 Implemented the img tag and inserted the said images in the respectable sections in the destination page.
 Added the alt description and dimensions.  
-Added another picture for ice climbing and added the same treatment to it as the previous images. Image courtesy of WikiCommons.
+Added another picture for ice climbing and added the same treatment to it as the previous images. Image courtesy of WikiCommons Media.
 Added both figure and figcaption tags to all of the images and along with a description to all of them.  
 Fixed a minor typo and grammar issues in the alt tag on The Great Barrier Reef image and the Mount Everest image alt tags.
 Added styling to both figure and figcaption tags in the styles file.
 Centered all the images.  
 Tightened up the code by getting rid of all the empty lines.  
 
+May 6, 2023
+Version 0.0.0.5
+Added the overflow hidden CSS property for all of the images in the destination page.
+Reformatted the CSS code to remove any spaces before the class names.  Also put the element tag names in front of the class names as there are no element tags nested in the class name.
+Added the padding around the images so everything has breathing space. 
+Updated the color schemes for h2 and p for the destination page.
+Fixed the English and grammar in the ice climbing section in the destination page. 
+Added another picture "extremeAdventure.jpg" courtesy of Adobe Stock. Also added it to the site's pages. 
+Added another picture for the background on all the site's pages which is a picture of the rocky mountains courtesy of Hippopix.
+Another picture for another sport called the flying fox.  Picture courtesy of WikiCommons Media. 
+Fixed the file directory bugs for the css files and javascript engine. 
+Added another picture of a person on a cliff overlooking a lake and mountainous region. Courtesy of LUXUO.  
+The file destination had to be named destinations due to a rendering problem because the file was not entered as destinations but rather destination.  It is now fixed.
+The title tags for all other pages were changed to their respectable file name. 
+The site's pages now render perfectly without a problem.  
+Fixed another bug which was causing the menu to display as a bulleted list instead of a menu. This was done by some research and rearranging the menu code in css. 
+Fixed another bug which was the imgs and its folder was not displaying properly.  It was fixed by verifying the proper directories that point to the image file. 
 
