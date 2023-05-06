@@ -66,4 +66,16 @@ Fixed any random English and grammar mistakes/typos.
 Converted any color names to their hexadecimal equivalent.  Will only be using hexadecimal color codes from here on in. 
 Implemented MenuBar so that the menu bar can be displayed horizontally.  
 
+May 6, 2023
+Version 0.0.0.4
+Got pictures for Machu Picchu, Mount Everest, and Great Barrier Reef courtesy of Encyclopedia Brittanica and Wikipedia via Google images search engine. 
+Implemented the img tag and inserted the said images in the respectable sections in the destination page.
+Added the alt description and dimensions.  
+Added another picture for ice climbing and added the same treatment to it as the previous images. Image courtesy of WikiCommons.
+Added both figure and figcaption tags to all of the images and along with a description to all of them.  
+Fixed a minor typo and grammar issues in the alt tag on The Great Barrier Reef image and the Mount Everest image alt tags.
+Added styling to both figure and figcaption tags in the styles file.
+Centered all the images.  
+Tightened up the code by getting rid of all the empty lines.  
+
 
