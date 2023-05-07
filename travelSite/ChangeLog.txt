@@ -96,4 +96,8 @@ The title tags for all other pages were changed to their respectable file name.
 The site's pages now render perfectly without a problem.  
 Fixed another bug which was causing the menu to display as a bulleted list instead of a menu. This was done by some research and rearranging the menu code in css. 
 Fixed another bug which was the imgs and its folder was not displaying properly.  It was fixed by verifying the proper directories that point to the image file. 
+Added meter and progress bars for development.
+Added another picture that depicts a diver scuba diving with a shark. Courtsey of Flickr.
+added links and other various types of hyperlinks.  Also demonstrated various ways to use them.
+ 
 
