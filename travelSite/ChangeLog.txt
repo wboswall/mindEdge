@@ -99,5 +99,20 @@ Fixed another bug which was the imgs and its folder was not displaying properly.
 Added meter and progress bars for development.
 Added another picture that depicts a diver scuba diving with a shark. Courtsey of Flickr.
 added links and other various types of hyperlinks.  Also demonstrated various ways to use them.
- 
+
+May 7, 2023
+Version 0.0.0.6
+Added more features for hyperlinks:  
+-new window with a link
+-link to a new window
+-make all links open new windows
+-made anchors for h3 tags for destinations page along with making a special anchor menu to hold them.
+-fixed any minor spelling and grammar.
+-created an anchor "return to top" to help visitors return back to the top of page.
+    - if works properly will consider on the rest of the pages.  But for now it is only available on destinations page. 
+    - implemented a link to go to a specific location on another page in my website. It was the main section of "Main Reason" on index.html.  
+Created a zip folder for the top-images from imgs folder and put it in the top level of travelSite directory. 
+-created a hyperlink on the index.html page so visitors can download these awesome pictures!
+
+Version 0.0.0.7
 
