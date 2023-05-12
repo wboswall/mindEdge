@@ -114,5 +114,7 @@ Added more features for hyperlinks:
 Created a zip folder for the top-images from imgs folder and put it in the top level of travelSite directory. 
 -created a hyperlink on the index.html page so visitors can download these awesome pictures!
 
+May 12, 2023
 Version 0.0.0.7
+Implemented the return to top anchor link for the entire site.
 
