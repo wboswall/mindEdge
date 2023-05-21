@@ -122,6 +122,7 @@ May 15, 2023
 Version 0.0.0.8
 Added title attribute for all appropriate tags for about.html.
 
-May 15, 2023
+May 19, 2023
 Version 0.0.0.x
-
+Fixed the errors for index page due to missing alt tags.  
+inserted link for top-images.zip so visitors can download the compressed folder. 
