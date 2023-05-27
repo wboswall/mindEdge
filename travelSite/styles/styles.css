@@ -1,0 +1,144 @@
+/*
+ * @author William E Boswall
+ * @version 0.0.0.0
+ * @license not available
+ * @date 04/05/2023
+ * @description: A CSS that will style the site.
+ * @version: 0.0.0.0
+ */
+.MenuBar ul{
+   list-style-type: none; 
+   padding: 10px;
+   background-color:#ECE1E1;
+ }
+ul.Menubar li {
+   float: left; 
+   padding: 10px;
+ }
+body{
+    font-family:Arial, "gill sans";
+    background-color: #FFFFCC;
+    background-image: url("imgs/jpg/rocks-hill-mountain-landscape-preview.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+ }
+.Highlight {
+    background-color: #FFCC99;
+ }
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #008000;
+    text-align:center;
+ }
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+    color: #336699;
+    text-transform:uppercase;
+ }
+h3 {
+    letter-spacing: 6px;
+ }
+li {
+    line-height: 2.0;
+ }
+p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-indent:30px;
+    overflow:hidden;
+ }
+.Slogan {
+    font-style:italic;
+ }
+.MainGoal {
+    font-style:bold;
+ }
+.Intro {
+    white-space:nowrap;
+    color: #008000;
+    font-weight:bold;
+    background-color:#FFC0CB;
+ }
+#closing{
+    text-align:center;
+    text-transform:uppercase;
+ }
+.MtEverest h2 {
+    color: #FF0000; 
+    font-style: italic;
+    background-color:#FFC0CB;
+ }
+.MtEverest p {
+    color:#24CFE6;
+    font-style:italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    overflow:hidden;
+    background-color:#FFC0CB;
+ }
+.GreatBarrierReef h2{
+    color:#FFC0CB;
+    font-style:oblique;
+    background-color:#FFC0CB;
+ }
+.GreatBarrierReef p{
+    color:#8A2BE2;
+    font-style: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    overflow:hidden;
+    background-color:#FFC0CB;
+ }
+.Windsurfing h2 {
+   color:#F146CC;
+   font-style:oblique;
+   background-color:#FFC0CB;
+}
+.Windsurfing p {
+   color:#E41695;
+   font-style: bold;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 14px;
+   overflow:hidden;
+   background-color:#FFC0CB;
+}
+.IceClimbing h2 {
+   color:#4891E6;
+   font-style:oblique;
+   background-color:#FFC0CB;
+}
+.IceClimbing p {
+   color:#2738CF;
+   font-style: bold;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 14px;
+   overflow:hidden;
+   background-color:#FFC0CB;
+}
+figure{
+   width: 375px;
+   padding: 5px;
+   background-color: #CCCCCC;
+}
+figcaption {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   text-align: center;
+}
+img{
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 20px;
+}
+#Return {
+   background-color:#FF0000;
+   color:#CCCCCC;
+   font-size: 20px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   padding: 10px;
+   margin:auto auto auto;
+   text-align: center;
+}
