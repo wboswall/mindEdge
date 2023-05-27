@@ -126,3 +126,12 @@ May 19, 2023
 Version 0.0.0.9
 Fixed the errors for index page due to missing alt tags.  
 inserted link for top-images.zip so visitors can download the compressed folder. 
+
+May 27, 2023
+Version 0.0.0.10
+Did some housekeeping:
+moved engine.js into scripts folder
+moved styles.css into styles folder
+imgs (folder) was renamed as images
+Updated the engine.js with a new function called Declare()
+    It simple declares Hello World from the ECMAScript world!
