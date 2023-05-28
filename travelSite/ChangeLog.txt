@@ -130,8 +130,19 @@ inserted link for top-images.zip so visitors can download the compressed folder.
 May 27, 2023
 Version 0.0.0.10
 Did some housekeeping:
-moved engine.js into scripts folder
-moved styles.css into styles folder
-imgs (folder) was renamed as images
-Updated the engine.js with a new function called Declare()
-    It simple declares Hello World from the ECMAScript world!
+-moved engine.js into scripts folder
+-moved styles.css into styles folder
+-imgs (folder) was renamed as images
+-Updated the engine.js with a new function called Declare()
+    It simply declares Hello World from the ECMAScript world!
+
+May 27, 2023
+Version 0.0.0.11
+Fixed a host of problems:
+-changes imgs/ to images/ in the picture paths on every .html webpage
+-similar to the styles and engine but simply added the folder name
+-fixed stray grammar and English errors
+-fixed the top anchor links and the return home anchor links
+-blocked out the nested lists as according to HTML5 newest standard that is no longer allowed.  
+-commented out the nonexistent css style sheets that don't exist...YET!
+-and any other necessary problems that needed to be addressed. 
