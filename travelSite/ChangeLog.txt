@@ -146,3 +146,9 @@ Fixed a host of problems:
 -blocked out the nested lists as according to HTML5 newest standard that is no longer allowed.  
 -commented out the nonexistent css style sheets that don't exist...YET!
 -and any other necessary problems that needed to be addressed. 
+
+There were no updates on May 28 because there was an extra update on the 27th as above shows
+
+May 29, 2023
+Version 0.0.0.12
+Experimented with nested lists on the development page. 
