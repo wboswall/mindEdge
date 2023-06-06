@@ -1,0 +1,21 @@
+/*
+ * Mixed Methods CSS exercise
+*/
+body {
+    background-color: #E5E0EB;
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: papayawhip;
+    border: 8px solid #FFD700;
+}
+h1 {
+    color: #369;
+}
+p {
+    font-family: serif;
+    color: #00F;
+}
