@@ -1,0 +1,128 @@
+ChangeLog
+****************************************************************************
+Purpose is to create a record of all the changes that are made to this site.  
+This will help if we need to go back and trace 
+any changes or revert back to a previous version temporarily.
+****************************************************************************
+This website is based off of M and B Adventure Travel site from the book called -
+Teach Yourself Visually HTML5: The Fast and Easy Way to Learn. Authored by Mike Woolridge.  Published by Wiley (John Wiley & Sons, Inc.). Copyright 2011.
+
+These books will be used too:
+HTML&CSS: design and build websites Authored by Jon Duckett Published by Wiley (John Wiley & Sons, Inc.) Copyright 2011.
+Expert Insight Responsive Web Design with HTML5 and CSS: Develop future-proof responsive websites using the latest HTML5 and CSS techniques Third Edition 
+by Ben Frain Published by Packt Publishing Copyright 2020. 
+CSS: The Definitive Guide: Visual Presentation For The Web Authored Eric A. Meyer & Estelle Weyl. Published by O'Reilly Media Inc. Copyright 2018.
+Also will consult Mozilla Docs and W3Schools for HTML5, CSS, and JavaScript.
+
+The following books will also be used in further developing this site.
+Learning Made Easy: Coding All-In-One for dummies 9 Books in one! Authored by Nikhil Abraham et all. Published by Wiley (John Wiley & Sons, Inc.)
+Copyright 2017.
+Sams Teach Yourself Javascript in 24 Hours Authored by Phil Ballard and Michael Moncur. Published by Pearson Education Inc. Copyright 2013.
+New Perspectives JavaScript and AJAX 2nd Edition Authored by Patrick Carey and Frank Canovatchel. Published by Course Technology, Cengage Learning. Copyright 2010.
+Eloquent JavaScript Second Edition A Modern Introduction to Programming Authored by Marijn Haverbeke Published by No Starch Press, Inc. Copyright 2015.
+JavaScript The Definitive Guide 6th Edition Authored by David Flanagan Published by O'Reilly Media, Inc. Copyright 2011.
+1st Edition JavaScript from Frontend to Backend: Learn full stack JavaScript devleopment using the MEVN stack with quick and easy steps Authored by Eric Sarrion.
+Published by Packt Publishing Copyright 2022.
+Learning JQuery: A Hands-on Guide to Building Rich Interactive Web Front Ends. Authored by Ralph Steyer. Published by Addison-Wesley /Pearson Education Inc. Copyright 2013.
+Expert Insight: JavaScript from Beginner to Professional: Learn Javascript quickly by building fun, interactive, and dynamic web apps, games, and pages. Authored by Laurence Lars Svekis Rob Percieval Maaike van Putten
+Published by Packt Publishing. Copyright 2021.  
+JavaScript & Jquery Interactive Front-End Web Development Authored by Jon Duckett Published by John Wiley & Sons, Inc. Copyright 2014. 
+
+The computer used was a HP Pavilion running Fedora Linux Edition 38
+The repository will be maintined by GitHub while running Git commands from the terminal
+Will consult Pro Git: Second Edition Everything you need to know about Git. Authored by Scott Chacon and Ben Straub It is also available online at: https://git-scm.com/book/en/v2
+Published by Apress. Copyright 2014. 
+
+
+May 3, 2023
+Version 0.0.0.0
+The base project - minimalist version
+Committed files: engine.js, index.html, styles.css
+
+May 4, 2023
+Version 0.0.0.1
+The first official commit that includes the changes of the following files:
+Updated styles.css with styling for headers 1 and 2 levels, and paragraph tags.  
+Updated index.html with more sections for the main article.
+Created more html pages: about, blog, contact, destination, development, traveltips, and travelwarnings.
+Created Changelog.txt to document important changes for each commit to the repository of mindEdge/Travelsite project.
+
+May 4, 2023
+Version 0.0.0.2
+Added more styling to styles.css.
+Also introduced nested styling too. This was done to the destination page.
+Removed the html styling tags (<b></b> and <i></i>) from all web pages. 
+    This was done by replacing them with CSS classes and then applied the afformentioned styling in the styles.css.
+Removed the five &nbsp;(s) from the section of index.html called Intro and replaced them with CSS property white-space:nowrap; .
+Fixed spelling mistake for -vacation in the meta tag section.
+Updated files: Changelog.txt, destination, index and styles.  
+
+May 5, 2023
+Version 0.0.0.3
+Updated all of the elements in the styles sheet.  
+Introduced styling for the li element, span tag to make Maple Leaf Travel Store stand out on the index page.
+Introduced the span.Hightlight feature to make certain pieces of text such as the company's name stand out better. 
+Fixed any random English and grammar mistakes/typos.
+Converted any color names to their hexadecimal equivalent.  Will only be using hexadecimal color codes from here on in. 
+Implemented MenuBar so that the menu bar can be displayed horizontally.  
+
+May 6, 2023
+Version 0.0.0.4
+Changes to the destination page.
+Got pictures for Machu Picchu, Mount Everest, and Great Barrier Reef courtesy of Encyclopedia Brittanica and Wikipedia via Google images search engine. 
+Implemented the img tag and inserted the said images in the respectable sections in the destination page.
+Added the alt description and dimensions.  
+Added another picture for ice climbing and added the same treatment to it as the previous images. Image courtesy of WikiCommons Media.
+Added both figure and figcaption tags to all of the images and along with a description to all of them.  
+Fixed a minor typo and grammar issues in the alt tag on The Great Barrier Reef image and the Mount Everest image alt tags.
+Added styling to both figure and figcaption tags in the styles file.
+Centered all the images.  
+Tightened up the code by getting rid of all the empty lines.  
+
+May 6, 2023
+Version 0.0.0.5
+Added the overflow hidden CSS property for all of the images in the destination page.
+Reformatted the CSS code to remove any spaces before the class names.  Also put the element tag names in front of the class names as there are no element tags nested in the class name.
+Added the padding around the images so everything has breathing space. 
+Updated the color schemes for h2 and p for the destination page.
+Fixed the English and grammar in the ice climbing section in the destination page. 
+Added another picture "extremeAdventure.jpg" courtesy of Adobe Stock. Also added it to the site's pages. 
+Added another picture for the background on all the site's pages which is a picture of the rocky mountains courtesy of Hippopix.
+Another picture for another sport called the flying fox.  Picture courtesy of WikiCommons Media. 
+Fixed the file directory bugs for the css files and javascript engine. 
+Added another picture of a person on a cliff overlooking a lake and mountainous region. Courtesy of LUXUO.  
+The file destination had to be named destinations due to a rendering problem because the file was not entered as destinations but rather destination.  It is now fixed.
+The title tags for all other pages were changed to their respectable file name. 
+The site's pages now render perfectly without a problem.  
+Fixed another bug which was causing the menu to display as a bulleted list instead of a menu. This was done by some research and rearranging the menu code in css. 
+Fixed another bug which was the imgs and its folder was not displaying properly.  It was fixed by verifying the proper directories that point to the image file. 
+Added meter and progress bars for development.
+Added another picture that depicts a diver scuba diving with a shark. Courtsey of Flickr.
+added links and other various types of hyperlinks.  Also demonstrated various ways to use them.
+
+May 7, 2023
+Version 0.0.0.6
+Added more features for hyperlinks:  
+-new window with a link
+-link to a new window
+-make all links open new windows
+-made anchors for h3 tags for destinations page along with making a special anchor menu to hold them.
+-fixed any minor spelling and grammar.
+-created an anchor "return to top" to help visitors return back to the top of page.
+    - if works properly will consider on the rest of the pages.  But for now it is only available on destinations page. 
+    - implemented a link to go to a specific location on another page in my website. It was the main section of "Main Reason" on index.html.  
+Created a zip folder for the top-images from imgs folder and put it in the top level of travelSite directory. 
+-created a hyperlink on the index.html page so visitors can download these awesome pictures!
+
+May 12, 2023
+Version 0.0.0.7
+Implemented the return to top anchor link for the entire site.
+
+May 15, 2023
+Version 0.0.0.8
+Added title attribute for all appropriate tags for about.html.
+
+May 19, 2023
+Version 0.0.0.9
+Fixed the errors for index page due to missing alt tags.  
+inserted link for top-images.zip so visitors can download the compressed folder. 

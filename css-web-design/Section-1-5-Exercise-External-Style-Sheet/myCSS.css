@@ -1,0 +1,15 @@
+h1 {
+    font-family: Georgia, serif;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+    color: #FF0000;
+    background-color: #00FFFF;
+}
+p {
+    font-family: cursive;
+    font-size: 1em;
+    color: #0000FF;
+    background-color: #FFFF00;
+}
+

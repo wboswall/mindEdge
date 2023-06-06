@@ -1,0 +1,22 @@
+h1 {
+    //left blank intentionally
+}
+
+h2.center {
+    text-align: center;
+}
+p.normCenter {
+    text-align: center;
+    color: darkblue;
+    font-size: 100%;
+}
+p.mediumCenter {
+    text-align: center;
+    color: darkblue;
+    font-size: 150%;
+}
+p.largeCenter {
+    text-align: center;
+    color: darkblue;
+    font-size: 200%;
+}
