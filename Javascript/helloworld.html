@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab</title>
+        <script src="script.js"></script>
+        <style>
+            body {
+                background-color: aqua;
+                font-family:'Courier New', Courier, monospace;
+                font-size: 1.5em;
+
+            }
+            button {
+                border-radius: 4em;
+                background-color: green;
+                color: white;
+                font-size: 1.25em;
+                font-family:'Courier New', Courier, monospace;
+                padding: 0.50em;
+                box-shadow:0.5em 0.5em 0.5em 0.5em teal; /*top, right, bottom, left - TRBL*/
+                margin: 1em;
+            }
+            input {
+                font-size: 1.10em;
+                font-family:'Courier New', Courier, monospace;
+                color: green;
+                background-color: bisque;
+                box-shadow: 0.5em 0.5em 0.5em 0.5em darkcyan; /*top, right, bottom, left - TRBL*/
+            }
+        </style>
+    </head>
+    <body onload="alert('Hello World')">
+        <h1>Javascript Lab</h1>
+        <button onClick="alert('Hello World')">Click Me</button>
+        <h1>This is an H1 Heading</h1>
+        <p>H1 headings should appear at most once per page.</p>
+        <p>A <a href="#" onMouseover="alert('Hello World')">hyperlink</a> can appear in many places.</p>
+        <button onClick="alert('Hi, How are you today! This onclick is an example of an event handler. ')">Click here</button>
+        <form id="first_form">
+        
+        </form>
+        <p>Let's try a <a href="#" onMouseover="myFunction()">onMouseover</a> event</p>
+        <br>
+        <p> Let's try a <a href="#" onMouseover="test('message')">onMouseover</a> event</p>
+        <script>
+            function myFunction() {
+                alert("Hello World!");
+            }
+            function test(x) {
+              x = "How's everybody today?";
+             let y = " Hello world!";
+                alert(x + y);
+            }
+            function alertAgain() {
+                var alertArea = document.getElementById("first_paragraph");
+                alertArea.innerHTML = "This is a message";
+            }
+        </script>
+        <p>Unlike external css that must be in the head or else the html would render but then immediately the site would be styled.  That is very <wbr>
+            shocking to the visitor.</p>
+        <p>However unlike external CSS, Javascript can either be in the head or just above the closed body tag.  <wbr>
+            This way if you have website that heavenly relies on the javascript then put it in the head tag.  Having said that, <wbr>
+            if you have alot of onload, mouseover, and little scripts for features then it is best to put that above the closed body tag.  <wbr>
+            This way the site loads quickly and it gives the viewers a chance to start reading the website while the not-so-important <wbr>
+            javascript is loading.  </p>
+        <p>
+            However if you have a script that has both important and reliant js and unimportant js.  It would then be a good idea to separate them <wbr>
+            and put the important js at the top and the unimportant just above the closing body tag. 
+        </p>
+       <br><hr><br>
+        <h2>External Javascript</h2>
+        <p id="p">In the head element, add a reference to the external JavaScript named "script.js". Then watch this text change.</p>
+        <button onClick="checkScript()">Click to change the text</button> <button onClick="revert()">Revert</button>
+        <h2> The Document Object Model</h2>
+        <h3 id="first_heading">My Top Heading</h3>
+        <p id="first_paragraph">My first paragraph</p>
+        <button onClick="alertAgain()">Alert Message</button> <button onClick="reset()">Reset</button>
+        <h2>Commenting</h2>
+        <!--Start of Content-->
+        <h1>My Web Page</h1>
+	        <p id="p1">Let's have fun with JavaScript</p>
+	    <button onClick="sayAnything()">Click Me</button> <button onClick="undo()">Undo</button>
+        <br><hr><br>
+        <label> Enter your Postal Code: <input type='text' id="myPost" value=""></label>
+        <p id="p2"> We don't know where you are. Enter you postal code ex: C1C 0N8</p>
+        <p id="p3"></p>
+        <button onClick="whereAreYou()">Update</button> <button onClick="clr()">Clear</button><br>
+        <label>What is 2 + 2: <input type="text" id="myAnswer" value=""></label>
+	    <p id="p4">Answer the question.</p>
+	<button onClick="myTest()">Submit</button>
+        <p id="p5">This will populate with names from an array.</p>
+        <button onClick="array()">Populate</button>
+	    <script> //sayAnything outputs p1 text to paragraph.
+	            function sayAnything(msg){
+		            var msg ="Now we\'re cooking with peanut oil!"; //Set the msg to something new
+		            document.getElementById("p1").innerHTML = msg;
+		            /* Future adds include 
+                    having a input that someone
+                    can type the message into */
+	            }
+                function undo() {
+                    var reset = "Let\'s have fun with JavaScript";
+                    document.getElementById("p1").innerHTML = reset;
+                }
+                function whereAreYou() {
+                    var msg = "You are in ";
+                    var postal = document.getElementById("myPost").value;
+                    var newMsg = msg + postal;
+                    document.getElementById("p2").innerHTML = newMsg;
+                }
+                function clr() {
+                    var input = document.getElementById("myPost");
+                    input.value = "";
+                    var msg =" Let\'s try that again from the top. ";
+                    document.getElementById("p2").innerHTML = msg;
+                }
+               function myTest() {
+                    var msg = "";
+                    var answer = document.getElementById("myAnswer").value;
+                    switch (answer) {
+                        case "4":
+                            msg = "Correct!";
+                        break;
+                        case "3":
+                        case "1": 
+                            msg = "You\'re warm";
+                        break;
+                        default: 
+                        msg = "You\'re freezing";
+                    }
+                    document.getElementById("p4").innerHTML = msg;
+                }
+                function switchTest(){
+                    var msg ="";
+                    var answer = document.getElementById("answer").value;
+                    switch (answer) {
+                        case "2": 
+                        msg = "Correct!";
+                        break;
+                        case "3":
+                        msg = "Incorrect";
+                        break;
+                        case "1":
+                        msg = "Sorry, try again";
+                        break;
+                        default:
+                        msg = "Please try again";
+                    }
+                }
+                function ifElseTest() { // using comparision operators
+                    var msg = "";
+                    var answer = document.getElementByID("answer").value;
+                    if (answer == 4) {
+                        msg = "Correct!";
+                        document.GetElementById("p4").innerHTML = msg;
+                        var input = document.getElementByID("myAnswer");
+                        input.value = "";
+                    }else if (answer <=3) {
+                        msg = "You\'re too low";
+                        var input =document.getElementByID("myAnswer");
+                        input.value = "";
+                    } else if (answer > 4) {
+                        msg = "Your\'re too low";
+                        var input = document.getElementByID("myAnswer");
+                        input.value ="";
+                    }
+                }
+                function ifElseTestTwo() {
+                    // a straightforward ifelseif function
+                    var msg = "";
+                    var answer = document.getElementByID("answer").value;
+                    if(answer == "2") {
+                        msg = "Correct!"
+                    }else if (answer == 1) {
+                        msg = "You\'re warm";
+                    } else if (answer == 3) {
+                        msg = "You\'re warm";
+                    } else if (answer == 4) {
+                        msg ="You\'re cold";
+                    } else {
+                        msg = "You\'re freezing";
+                    } document.getElementByID("p1").innerHTML = msg;
+                }
+                function array() {
+                    var people = ["George", "Brad", "Julia"];
+                    people = document.getElementByID("p5");
+                }
+	</script>
+    </body>
+</html>
