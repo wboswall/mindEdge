@@ -76,5 +76,33 @@
 	<button onClick="myTest()">Submit</button>
         <p id="p5">This will populate with names from an array.</p>
         <button onClick="array()">Populate</button>
+        <p id="p6">Press the button to output the names</p>
+	<button onClick="myPeople()">Output Names</button>
+	<script>
+	   function myPeople(){
+		var people = ["George","Brad","Julia"];
+		var msg = " ";
+		 var person = people.length;
+		for (person of people) {
+		  msg = msg + person + "<br/>";
+		}
+  		document.getElementById("p6").innerHTML = msg;
+	  }
+	</script>
+    <p id="p7">test </p>
+    <script>
+        var person = { 
+            name: "George", 
+            profession : "actor", 
+            home : "California", 
+            personDetails : function() { 
+            return this.name + " is an " + this.profession  
+                              + " from " + this.home + " "; 
+                      } 
+                  }
+           document.getElementById("p7").innerHTML  
+                          = person.personDetails();
+    </script>
+    
     </body>
 </html>
